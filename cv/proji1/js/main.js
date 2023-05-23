@@ -1,12 +1,12 @@
-// const loader = document.getElementById('page-preloader');
-// const interval = setInterval(() => {
-//   loader.style.opacity -= 0.01;
-//   if (loader.style.opacity==0) clearInterval(interval);
-// }, 10)
+const loader = document.getElementById('page-preloader');
+const interval = setInterval(() => {
+  loader.style.opacity -= 0.01;
+  if (loader.style.opacity==0) clearInterval(interval);
+}, 10)
 
 
 
-//const { setTimeout } = require("timers/promises");
+ //const { setTimeout } = require("timers/promises");
 
 
 
